@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_color"
+    android:padding="48dp">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/backButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/light_dark_color">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/moviePoster"
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/poster_border"
+                    android:contentDescription="Movie Poster"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/movieTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/yellow_color"
+                    android:gravity="center"
+                    android:layout_marginBottom="12dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/movieYear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:layout_marginEnd="8dp" />
+
+                    <TextView
+                        android:id="@+id/movieRating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/rating_background"
+                        android:padding="6dp"
+                        android:layout_marginEnd="8dp" />
+
+                    <TextView
+                        android:id="@+id/movieAgeRating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/movieStudio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:textSize="16sp"
+                    android:textColor="#757575"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/moviePlot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:maxWidth="400dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:lineSpacingExtra="4dp"
+                    android:paddingVertical="8dp"
+                    android:gravity="center" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Back to Search"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/yellow_color"
+        android:textColor="@color/dark_color"
+        android:padding="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

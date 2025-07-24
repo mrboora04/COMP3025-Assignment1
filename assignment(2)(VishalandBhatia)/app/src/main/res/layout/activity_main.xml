@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/dark_color">
+
+    <TextView
+        android:layout_width="372dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="24dp"
+        android:text="Search Movies"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:gravity="bottom"
+        tools:ignore="RtlCompat" />
+
+    <EditText
+        android:id="@+id/searchField"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:hint="Enter movie title"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textSize="22sp"
+        android:textColor="@color/dark_color"
+        android:background="@color/white"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="380dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/yellow_color"
+        android:padding="12dp"
+        android:text="Search"
+        android:textColor="@color/dark_color" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:maxHeight="500dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb" />
+</LinearLayout>
