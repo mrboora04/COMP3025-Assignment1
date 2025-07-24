@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ca.bhavik.assignment(2)(VishalandBhatia)"
+    namespace = "ca.vishal.assignment1_vishal"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ca.bhavik.assignment(2)(VishalandBhatia)"
+        applicationId = "ca.vishal.assignment1_vishal"
         minSdk = 34
         targetSdk = 35
         versionCode = 1

@@ -1,4 +1,4 @@
-package ca.bhavik.moviesearchassignment;
+package ca.vishal.assignment1_vishal;
 
 import org.junit.Test;
 

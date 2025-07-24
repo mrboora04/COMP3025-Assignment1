@@ -1,4 +1,4 @@
-package ca.bhavik.moviesearchassignment;
+package ca.vishal.assignment1_vishal;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

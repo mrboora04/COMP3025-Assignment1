@@ -1,4 +1,4 @@
-package ca.bhavik.moviesearchassignment;
+package ca.vishal.assignment1_vishal;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("ca.bhavik.assignment(2)(VishalandBhatia)", appContext.getPackageName());
+        assertEquals("ca.bhavik.assignment1_vishal", appContext.getPackageName());
     }
 }

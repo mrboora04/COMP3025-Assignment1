@@ -1,4 +1,4 @@
-package ca.bhavik.moviesearchassignment;
+package ca.vishal.assignment1_vishal;
 
 import android.util.Log;
 import androidx.lifecycle.LiveData;

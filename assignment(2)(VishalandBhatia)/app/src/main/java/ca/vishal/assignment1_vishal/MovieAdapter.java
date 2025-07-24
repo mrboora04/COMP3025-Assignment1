@@ -1,11 +1,11 @@
-package ca.bhavik.assignment(2)(VishalandBhatia);
+package ca.vishal.assignment(2)(VishalandBhatia);
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import ca.bhavik.moviesearchassignment.databinding.ItemMovieBinding;
+import ca.vishal.assignment1_vishal.databinding.ItemMovieBinding;
 import com.bumptech.glide.Glide;
 import java.util.List;
 

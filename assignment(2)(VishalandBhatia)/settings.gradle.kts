@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MovieSearchAssignment"
+rootProject.name = "assignment1_vishal"
 include(":app")
  
