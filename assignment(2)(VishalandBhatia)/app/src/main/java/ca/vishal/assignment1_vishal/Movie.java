@@ -1,4 +1,5 @@
-package ca.vishal.assignment(2)(VishalandBhatia);
+package ca.vishal.assignment1_vishal;
+
 
 import java.io.Serializable;
 
